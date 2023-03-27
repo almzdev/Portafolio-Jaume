@@ -1,0 +1,24 @@
+.phrase {
+    text-align: center;
+    font: var(--headline5);
+}
+
+.phrase-description p:first-child {
+    font-weight: 400;
+    padding-block-start: 40px;
+    padding-block-end: 24px;
+}
+
+.phrase-icon {
+    padding-block-start: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .phrase {
+        font: var(--headline4);
+    }
+
+    .phrase-description p:first-child {
+        font-weight: 300;
+    }
+}
